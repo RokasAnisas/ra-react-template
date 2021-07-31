@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 
 import Caption from '@/components/Caption';
+
 const Home: FC = () => {
   const className = 'home';
 
