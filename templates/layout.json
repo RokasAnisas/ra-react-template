@@ -20,9 +20,7 @@
             "  return <div className={cx(className)}>{children}</div>;",
             "};",
             "",
-            "export interface [ModuleName]Props {",
-            "  children: ReactNode;",
-            "}",
+            "export interface [ModuleName]Props {}",
             "",
             "export default [ModuleName];",
             ""

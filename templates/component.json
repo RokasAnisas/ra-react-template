@@ -8,13 +8,13 @@
         {
           "fileName": "[ModuleName].tsx",
           "template": [
-            "import React, { FC } from 'react';",
+            "import React, { VFC } from 'react';",
             "import classNames from 'classnames/bind';",
             "",
             "import styles from './[ModuleName].module.scss';",
             "const cx = classNames.bind(styles);",
             "",
-            "const [ModuleName]: FC<[ModuleName]Props> = ({",
+            "const [ModuleName]: VFC<[ModuleName]Props> = ({",
             "  label = '[ModuleName]',",
             "}) => {",
             "  const className = '[module-name]';",

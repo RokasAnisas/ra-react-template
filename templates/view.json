@@ -8,12 +8,12 @@
         {
           "fileName": "[ModuleName].view.tsx",
           "template": [
-            "import React, { FC } from 'react';",
+            "import React, { VFC } from 'react';",
             "import { useSelector } from 'react-redux';",
             "",
             "import { ApplicationState } from '@/store';",
             "",
-            "const [ModuleName]: FC = () => {",
+            "const [ModuleName]: VFC = () => {",
             "  const appState = useSelector((state: ApplicationState) => state);",
             "  console.log(appState);",
             "",

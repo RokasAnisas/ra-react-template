@@ -8,13 +8,13 @@
         {
           "fileName": "[ModuleName].container.tsx",
           "template": [
-            "import React, { FC } from 'react';",
+            "import React, { VFC } from 'react';",
             "import { connect } from 'react-redux';",
             "",
             "import { ApplicationState } from '@/store';",
             "import ContainerBase from '@/components/ContainerBase';",
             "",
-            "const [ModuleName]: FC<[ModuleName]StateProps> = ({",
+            "const [ModuleName]: VFC<[ModuleName]StateProps> = ({",
             "  state,",
             "}: [ModuleName]StateProps) => {",
             "  console.log(state);",
